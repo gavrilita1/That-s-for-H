@@ -1,0 +1,307 @@
+fileFormatVersion: 2
+guid: 9ae08b8742a949c4d9b071e7daafd31a
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: 7712709488430682443
+    second: EnemyMarvy_0
+  - first:
+      213: 6538746422325527756
+    second: EnemyMarvy_1
+  - first:
+      213: -8804570788929861989
+    second: EnemyMarvy_2
+  - first:
+      213: 2802439626403579615
+    second: EnemyMarvy_3
+  - first:
+      213: -8419887881782620891
+    second: EnemyMarvy_4
+  - first:
+      213: -5995348157678626591
+    second: EnemyMarvy_5
+  - first:
+      213: -2245737574753703918
+    second: EnemyMarvy_6
+  - first:
+      213: 319379395184532362
+    second: EnemyMarvy_7
+  externalObjects: {}
+  serializedVersion: 10
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: -1
+    aniso: -1
+    mipBias: -100
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  platformSettings:
+  - serializedVersion: 3
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Android
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: EnemyMarvy_0
+      rect:
+        serializedVersion: 2
+        x: 107
+        y: 179
+        width: 39
+        height: 74
+      alignment: 9
+      pivot: {x: 0.61478484, y: 0.88509595}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 49e9233a7f63ed24bb7712977cb6862f
+      internalID: 7712709488430682443
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: EnemyMarvy_1
+      rect:
+        serializedVersion: 2
+        x: 164
+        y: 178
+        width: 41
+        height: 77
+      alignment: 9
+      pivot: {x: 0.4136356, y: 0.87339586}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: dbac077befe81b84ba84fb830f50e0f1
+      internalID: 6538746422325527756
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: EnemyMarvy_2
+      rect:
+        serializedVersion: 2
+        x: 212
+        y: 89
+        width: 190
+        height: 180
+      alignment: 9
+      pivot: {x: 0.5263158, y: 0.055230796}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 56a980830b857004c9f85f16d44a2528
+      internalID: -8804570788929861989
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: EnemyMarvy_3
+      rect:
+        serializedVersion: 2
+        x: 400
+        y: 147
+        width: 182
+        height: 64
+      alignment: 9
+      pivot: {x: 0.9189641, y: 0.2741232}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bf16e1d4e82bd2144910015c86d65dde
+      internalID: 2802439626403579615
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: EnemyMarvy_4
+      rect:
+        serializedVersion: 2
+        x: 597
+        y: 141
+        width: 103
+        height: 109
+      alignment: 9
+      pivot: {x: 0.47124296, y: 0.26825482}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8294f09c820eec641bfd4d24c5931fdc
+      internalID: -8419887881782620891
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: EnemyMarvy_5
+      rect:
+        serializedVersion: 2
+        x: 68
+        y: 112
+        width: 13
+        height: 18
+      alignment: 9
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 673dfcc2b9929ea4d99665ed6207722d
+      internalID: -5995348157678626591
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: EnemyMarvy_6
+      rect:
+        serializedVersion: 2
+        x: 94
+        y: 109
+        width: 51
+        height: 31
+      alignment: 9
+      pivot: {x: 0.66506135, y: 0.75457567}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b4c7db27b197b8c4bbe57c8f8733b894
+      internalID: -2245737574753703918
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: EnemyMarvy_7
+      rect:
+        serializedVersion: 2
+        x: 166
+        y: 109
+        width: 40
+        height: 30
+      alignment: 9
+      pivot: {x: 0.58479536, y: 0.8187144}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7faeb421b9268d34c8da969e476a59ab
+      internalID: 319379395184532362
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: 5e97eb03825dee720800000000000000
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+  spritePackingTag: 
+  pSDRemoveMatte: 0
+  pSDShowRemoveMatteOption: 1
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
