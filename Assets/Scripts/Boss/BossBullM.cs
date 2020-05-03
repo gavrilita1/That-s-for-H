@@ -2,7 +2,7 @@
 using System.Collections.Generic;
 using UnityEngine;
 
-public class BossBull : MonoBehaviour
+public class BossBullM : MonoBehaviour
 {
 
     public Transform player;

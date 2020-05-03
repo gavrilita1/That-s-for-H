@@ -78,6 +78,7 @@ public class PlayerMovement : MonoBehaviour
                 for (int i = 0; i < enemiesToDamage.Length; i++)
                 {
                     enemiesToDamage[i].GetComponent<EnemyM_Health>().TakeDamageEnemy(damage);
+                    //enemiesToDamage[i].GetComponent<BossBull_Health>().TakeDamageEnemy(damage);
                 }
                 nextAttackTime = Time.time + 1f / attackRate;
             }
@@ -88,10 +89,18 @@ public class PlayerMovement : MonoBehaviour
                 Collider2D[] enemiesToDamage = Physics2D.OverlapCircleAll(attackPos.position, attackRange, whatIsEnemies);
                 for (int i = 0; i < enemiesToDamage.Length; i++)
                 {
+                   //enemiesToDamage[i].GetComponent<EnemyM_Health>().TakeDamageEnemy(damage);
+                    enemiesToDamage[i].GetComponent<BossBull_Health>().TakeDamageEnemy(damage);
+                }
+                enemiesToDamage = Physics2D.OverlapCircleAll(attackPos.position, attackRange, whatIsEnemies);
+                for (int i = 0; i < enemiesToDamage.Length; i++)
+                {
                     enemiesToDamage[i].GetComponent<EnemyM_Health>().TakeDamageEnemy(damage);
+                    //enemiesToDamage[i].GetComponent<BossBull_Health>().TakeDamageEnemy(damage);
                 }
                 nextAttackTime = Time.time + 1f / attackRate;
             }
+            
         }
         
         if (Input.GetButtonUp("Fire1"))

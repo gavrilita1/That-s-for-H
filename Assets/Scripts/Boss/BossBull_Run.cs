@@ -2,13 +2,13 @@
 using System.Collections.Generic;
 using UnityEngine;
 
-public class BossBull : StateMachineBehaviour
+public class BossBull_Run : StateMachineBehaviour
 {
     public float speed = 2.0f;
     public float attackRange = 3.5f;
      
     Transform player;
-    BossBull bossBull;
+    BossBullM bossBull;
     Rigidbody2D rb;
 
 

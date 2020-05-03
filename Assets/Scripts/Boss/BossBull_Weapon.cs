@@ -2,7 +2,7 @@
 using System.Collections.Generic;
 using UnityEngine;
 
-public class BossBull : MonoBehaviour
+public class BossBull_Weapon : MonoBehaviour
 {
     public int attackDamage = 20;
     public int enragedAttackDamage = 40;

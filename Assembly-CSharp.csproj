@@ -73,6 +73,11 @@
     <Compile Include="Assets\EnemyM_Run.cs" />
     <Compile Include="Assets\EnemyM_Weapon.cs" />
     <Compile Include="Assets\HealthBar.cs" />
+    <Compile Include="Assets\Scripts\Boss\BossBull.cs" />
+    <Compile Include="Assets\Scripts\Boss\BossBull_Health.cs" />
+    <Compile Include="Assets\Scripts\Boss\BossBull_Run.cs" />
+    <Compile Include="Assets\Scripts\Boss\BossBull_Weapon.cs" />
+    <Compile Include="Assets\Scripts\Boss\BossBullM.cs" />
     <Compile Include="Assets\Scripts\CameraFollow.cs" />
     <Compile Include="Assets\Scripts\CharacterController2D.cs" />
     <Compile Include="Assets\Scripts\Enemy.cs" />

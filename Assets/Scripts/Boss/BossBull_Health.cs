@@ -2,7 +2,7 @@
 using System.Collections.Generic;
 using UnityEngine;
 
-public class BossBull : MonoBehaviour
+public class BossBull_Health : MonoBehaviour
 {
     public Animator animator;
 
@@ -21,10 +21,11 @@ public class BossBull : MonoBehaviour
 
         health -= damage;
         Debug.Log("BOSS  " + health);
-        //if (health <= 200)
-        //{
-        //    GetComponent<Animator>().SetBool("IsEnraged", true);
-        //}
+
+        if (health <= 0)
+        {
+            GetComponent<Animator>().SetBool("IsDead", true);
+        }
 
         health_Bar.SetHealth(health);
 
@@ -36,7 +37,7 @@ public class BossBull : MonoBehaviour
 
     void Die()
     {
-        Debug.Log("PLAYER Dead");
+        Debug.Log("Boss Dead");
         animator.SetBool("IsDead", true);
         //Instantiate(deathEffect, transform.position, Quaternion.identity);
         GetComponent<Rigidbody2D>().mass = 0;

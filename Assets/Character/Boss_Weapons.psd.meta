@@ -8,6 +8,18 @@ TextureImporter:
   - first:
       213: -8940261770899248795
     second: Boss_Weapons_1
+  - first:
+      213: -1793472157766484831
+    second: Boss_Weapons_2
+  - first:
+      213: -1739352883204767933
+    second: Boss_Weapons_3
+  - first:
+      213: 8143523132786471003
+    second: Boss_Weapons_4
+  - first:
+      213: 3745808020017749609
+    second: Boss_Weapons_5
   externalObjects: {}
   serializedVersion: 10
   mipmaps:
@@ -141,6 +153,90 @@ TextureImporter:
       bones: []
       spriteID: 05134434e65e2b64497ab77dca536a98
       internalID: -8940261770899248795
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Boss_Weapons_2
+      rect:
+        serializedVersion: 2
+        x: 147
+        y: 581
+        width: 4
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 627c61b53584ddb4ba9b4c7f69a22b4e
+      internalID: -1793472157766484831
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Boss_Weapons_3
+      rect:
+        serializedVersion: 2
+        x: 117
+        y: 47
+        width: 161
+        height: 367
+      alignment: 9
+      pivot: {x: 0.8351296, y: 0.49434564}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7b64ab449aa172a4cab27d04254a167b
+      internalID: -1739352883204767933
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Boss_Weapons_4
+      rect:
+        serializedVersion: 2
+        x: 301
+        y: 112
+        width: 33
+        height: 291
+      alignment: 9
+      pivot: {x: 0.37422875, y: 0.47147483}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9208b4a4608492c448df3da69b40457a
+      internalID: 8143523132786471003
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Boss_Weapons_5
+      rect:
+        serializedVersion: 2
+        x: 71
+        y: 53
+        width: 41
+        height: 363
+      alignment: 9
+      pivot: {x: 0.493844, y: 0.4371145}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a4463a7c09c4a6e4285a35690ae5d314
+      internalID: 3745808020017749609
       vertices: []
       indices: 
       edges: []
