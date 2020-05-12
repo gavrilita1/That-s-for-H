@@ -145,6 +145,7 @@ public class PlayerMovement : MonoBehaviour
     public void OnLanding()
     {
         animator.SetBool("IsJumping", false);
+        jump = false;
         //animator.SetBool("IsHurt", false);
     }
 
