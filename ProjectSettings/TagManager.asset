@@ -3,7 +3,9 @@
 --- !u!78 &1
 TagManager:
   serializedVersion: 2
-  tags: []
+  tags:
+  - Background
+  - Tree
   layers:
   - Default
   - TransparentFX
@@ -16,8 +18,8 @@ TagManager:
   - Player
   - Enemy
   - EnemyM
-  - 
-  - 
+  - Background
+  - Tree
   - 
   - 
   - 
@@ -40,4 +42,13 @@ TagManager:
   m_SortingLayers:
   - name: Default
     uniqueID: 0
+    locked: 0
+  - name: Background
+    uniqueID: 217285177
+    locked: 0
+  - name: Characters
+    uniqueID: 4098929951
+    locked: 0
+  - name: Tree
+    uniqueID: 3032271835
     locked: 0
