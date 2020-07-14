@@ -45,6 +45,32 @@
     <ImplicitlyExpandDesignTimeFacades>false</ImplicitlyExpandDesignTimeFacades>
   </PropertyGroup>
   <ItemGroup>
+<<<<<<< HEAD
+     <Compile Include="Assets\Scripts\Boss\BossBull_Run.cs" />
+     <Compile Include="Assets\Scripts\Boss\BossBull_Weapon.cs" />
+     <Compile Include="Assets\Scripts\Boss\BossBullM.cs" />
+     <Compile Include="Assets\Scripts\Boss\BossHealth.cs" />
+     <Compile Include="Assets\Scripts\BossBull_Health.cs" />
+     <Compile Include="Assets\Scripts\Enemy\Enemy.cs" />
+     <Compile Include="Assets\Scripts\Enemy\EnemyM.cs" />
+     <Compile Include="Assets\Scripts\Enemy\EnemyM_Health.cs" />
+     <Compile Include="Assets\Scripts\Enemy\EnemyM_Run.cs" />
+     <Compile Include="Assets\Scripts\Enemy\EnemyM_Weapon.cs" />
+     <Compile Include="Assets\Scripts\Players\ArmourBar.cs" />
+     <Compile Include="Assets\Scripts\Players\Arrow.cs" />
+     <Compile Include="Assets\Scripts\Players\Boss_Run.cs" />
+     <Compile Include="Assets\Scripts\Players\Bow.cs" />
+     <Compile Include="Assets\Scripts\Players\CharacterArcherController2D.cs" />
+     <Compile Include="Assets\Scripts\Players\CharacterController2D.cs" />
+     <Compile Include="Assets\Scripts\Players\HealthBar.cs" />
+     <Compile Include="Assets\Scripts\Players\PlayerMovement.cs" />
+     <Compile Include="Assets\Scripts\Players\PlayerMovementFinalBoss.cs" />
+     <Compile Include="Assets\Scripts\Scene\CameraFollow.cs" />
+     <Compile Include="Assets\Scripts\Scene\changeScene.cs" />
+     <Compile Include="Assets\Scripts\Scene\MainMenu.cs" />
+     <Compile Include="Assets\Scripts\Scene\Parallax.cs" />
+     <Compile Include="Assets\Scripts\Scene\SceneScript.cs" />
+=======
      <Compile Include="Assets\ArmourBar.cs" />
      <Compile Include="Assets\BackGround\Parallax.cs" />
      <Compile Include="Assets\Boss.cs" />
@@ -66,6 +92,7 @@
      <Compile Include="Assets\Scripts\CharacterController2D.cs" />
      <Compile Include="Assets\Scripts\Enemy.cs" />
      <Compile Include="Assets\Scripts\PlayerMovement.cs" />
+>>>>>>> parent of 594c6a3... Semifinal
      <Compile Include="Assets\TextMesh Pro\Examples &amp; Extras\Scripts\Benchmark01.cs" />
      <Compile Include="Assets\TextMesh Pro\Examples &amp; Extras\Scripts\Benchmark01_UGUI.cs" />
      <Compile Include="Assets\TextMesh Pro\Examples &amp; Extras\Scripts\Benchmark02.cs" />

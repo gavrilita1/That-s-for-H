@@ -5,11 +5,22 @@ using UnityEngine;
 public class BossBull_Run : StateMachineBehaviour
 {
     public float speed = 2.0f;
+<<<<<<< HEAD
+    public float attackRange = 6.5f;
+    private bool playerFinded = false;
+    private float distanceToPlayer = 35.0f;
+
+    Transform player;
+    BossBullM bossBull;
+    Rigidbody2D rb;
+
+=======
     public float attackRange = 3.5f;
      
     Transform player;
     BossBullM bossBull;
     Rigidbody2D rb;
+>>>>>>> parent of 594c6a3... Semifinal
 
 
     // OnStateEnter is called when a transition starts and the state machine starts to evaluate this state
@@ -26,7 +37,16 @@ public class BossBull_Run : StateMachineBehaviour
         bossBull.LookAtPlayer();
         Vector2 target = new Vector2(player.position.x, rb.position.y);
         Vector2 newPos = Vector2.MoveTowards(rb.position, target, speed * Time.fixedDeltaTime);
+<<<<<<< HEAD
+
+        if ((Vector2.Distance(player.position, rb.position) <= distanceToPlayer) || playerFinded == true)
+        {
+            playerFinded = true;
+            rb.MovePosition(newPos);
+        }
+=======
         rb.MovePosition(newPos);
+>>>>>>> parent of 594c6a3... Semifinal
 
         if (Vector2.Distance(player.position, rb.position) <= attackRange)
         {

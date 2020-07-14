@@ -97,7 +97,7 @@ LightmapSettings:
     m_ExportTrainingData: 0
     m_TrainingDataDestination: TrainingData
   m_LightingDataAsset: {fileID: 0}
-  m_UseShadowmask: 1
+  m_UseShadowmask: 0
 --- !u!196 &4
 NavMeshSettings:
   serializedVersion: 2
@@ -431,7 +431,7 @@ RectTransform:
   m_GameObject: {fileID: 647172436}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: 0, y: 0, z: 0}
-  m_LocalScale: {x: 2.8739, y: 3.3406212, z: 2.8739}
+  m_LocalScale: {x: 5.0385213, y: 5.856777, z: 5.0385213}
   m_Children:
   - {fileID: 1170306902}
   - {fileID: 784913996}
@@ -441,7 +441,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: -9, y: 11}
+  m_AnchoredPosition: {x: -405, y: 9}
   m_SizeDelta: {x: 100, y: 100}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &647172438
@@ -625,7 +625,7 @@ GameObject:
   - component: {fileID: 784913998}
   - component: {fileID: 784913997}
   m_Layer: 5
-  m_Name: OptionsButton
+  m_Name: MissionButton
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -1396,7 +1396,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1304148386}
   m_Layer: 5
-  m_Name: OptionMenu
+  m_Name: MissionMenu
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -1411,7 +1411,7 @@ RectTransform:
   m_GameObject: {fileID: 1304148385}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: 0, y: 0, z: 0}
-  m_LocalScale: {x: 2.8739, y: 3.3406212, z: 2.8739}
+  m_LocalScale: {x: 5.0149155, y: 5.8293366, z: 5.0149155}
   m_Children:
   - {fileID: 1344430055}
   - {fileID: 1513452559}
@@ -1422,7 +1422,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: -9, y: 11}
+  m_AnchoredPosition: {x: -404, y: 5}
   m_SizeDelta: {x: 100, y: 100}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!1 &1312772751
@@ -1516,7 +1516,11 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: OPTIONS
+  m_text: "Hello my old friend, \n\nI am writing you this letter to inform you that
+    Harold, the best army general, my right hand man, your best friend, has been defeated
+    for the first time by the Beast.\r\nI need you to eliminate the Beast and save
+    the castle, for the citizens, for me, and for Harold.\r\nRevenge for Harold!\r\n\nYour
+    friend,\r\nThe King\n"
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: 5302535af1044152a457ed104f1f4b91, type: 2}
   m_sharedMaterial: {fileID: 2164040, guid: 5302535af1044152a457ed104f1f4b91, type: 2}
@@ -1545,14 +1549,14 @@ MonoBehaviour:
   m_outlineColor:
     serializedVersion: 2
     rgba: 4278190080
-  m_fontSize: 75
-  m_fontSizeBase: 75
+  m_fontSize: 20
+  m_fontSizeBase: 20
   m_fontWeight: 400
   m_enableAutoSizing: 0
   m_fontSizeMin: 18
   m_fontSizeMax: 72
   m_fontStyle: 1
-  m_textAlignment: 514
+  m_textAlignment: 257
   m_characterSpacing: 0
   m_wordSpacing: 0
   m_lineSpacing: 0
@@ -1562,7 +1566,7 @@ MonoBehaviour:
   m_enableWordWrapping: 1
   m_wordWrappingRatios: 0.4
   m_overflowMode: 0
-  m_firstOverflowCharacterIndex: -1
+  m_firstOverflowCharacterIndex: 315
   m_linkedTextComponent: {fileID: 0}
   m_isLinkedTextComponent: 0
   m_isTextTruncated: 0
@@ -1583,15 +1587,15 @@ MonoBehaviour:
   m_firstVisibleCharacter: 0
   m_useMaxVisibleDescender: 1
   m_pageToDisplay: 1
-  m_margin: {x: -41.523438, y: 7.1139708, z: -159.13092, w: -72.34061}
+  m_margin: {x: -41.523438, y: -39.11373, z: -159.13092, w: -227.83395}
   m_textInfo:
     textComponent: {fileID: 1344430056}
-    characterCount: 7
+    characterCount: 338
     spriteCount: 0
-    spaceCount: 0
-    wordCount: 1
+    spaceCount: 65
+    wordCount: 62
     linkCount: 0
-    lineCount: 1
+    lineCount: 14
     pageCount: 1
     materialCount: 1
   m_isUsingLegacyAnimationComponent: 0
@@ -1634,7 +1638,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!224 &1513452559
 RectTransform:
   m_ObjectHideFlags: 0
@@ -1811,7 +1815,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 0}
   m_AnchorMax: {x: 1, y: 1}
-  m_AnchoredPosition: {x: 0.34796143, y: -25.444366}
+  m_AnchoredPosition: {x: -0.20000076, y: -40.5}
   m_SizeDelta: {x: 60, y: -71}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1610780092
@@ -1931,7 +1935,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!224 &1912684736
 RectTransform:
   m_ObjectHideFlags: 0
@@ -2142,7 +2146,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_Sprite: {fileID: 21300000, guid: 2edc39c1fce49c84d842e9248b2fec55, type: 3}
+  m_Sprite: {fileID: 21300000, guid: bcda5f8d5d56d35418642de95fe08643, type: 3}
   m_Type: 0
   m_PreserveAspect: 0
   m_FillCenter: 1
@@ -2288,7 +2292,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: OPTIONS
+  m_text: MISSION
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: 5302535af1044152a457ed104f1f4b91, type: 2}
   m_sharedMaterial: {fileID: 2164040, guid: 5302535af1044152a457ed104f1f4b91, type: 2}
